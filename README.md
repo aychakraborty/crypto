@@ -29,6 +29,7 @@ comparing the normalized range (i.e. (max-min)/min)
 
 Example:
 http://localhost:9090/crypto/api/sortcryptos
+
 ["ETH","XRP","DOGE","LTC","BTC”]
 
 2. Exposes an endpoint that will return the oldest/newest/min/max values for a requested
@@ -38,8 +39,11 @@ http://localhost:9090/crypto/api/{crypto}
 
 Examples:
 http://localhost:9090/crypto/api/BTC
+
 {"OLDEST":"Sat Jan 01 05:00:00 CET 2022","MIN":"33276.59","MAX":"47722.66","NEWEST":"Mon Jan 31 21:00:00 CET 2022"}
+
 http://localhost:9090/crypto/api/ETH
+
 {"OLDEST":"Sat Jan 01 09:00:00 CET 2022","MIN":"2336.52","MAX":"3828.11","NEWEST":"Mon Jan 31 21:00:00 CET 2022”}
 
 3. Exposes an endpoint that will return the crypto with the highest normalized range for a
@@ -49,4 +53,5 @@ http://localhost:9090/crypto/api/date/{date}
 
 Examples:
 http://localhost:9090/crypto/api/date/01-01-2022
+
 XRP
