@@ -1,8 +1,9 @@
-# crypto
+# crypto recommendation service
 
-This is a crypto application for XM project
+This is a crypto recommendation service application for XM project
 
-Requirements for the recommendation service:
+# Requirements for the recommendation service:
+
 ● Reads all the prices from the csv files
 ● Calculates oldest/newest/min/max for each crypto for the whole month
 ● Exposes an endpoint that will return a descending sorted list of all the cryptos,
@@ -12,7 +13,7 @@ crypto
 ● Exposes an endpoint that will return the crypto with the highest normalized range for a
 specific day
 
-Solution:
+# Solution:
 
 1. Read all files in resource/files folder.
 2. Create a map structure with key as crypto name and value as list of specific crypto records.
@@ -22,7 +23,7 @@ Solution:
 6. Take a request crypto name and fetch the details from above map and display the result exposing the 2nd endpoint.
 7. Take a request of a date and create similar list by finding out what are the crypto records that exist for that particular date. Calculate the MAX and MIN and figure out the Normalised value. Use the same to find out the highest normalised crypto for the input date.
 
-Endpoints:
+# Endpoints:
 
 1. Exposes an endpoint that will return a descending sorted list of all the cryptos,
 comparing the normalized range (i.e. (max-min)/min)
@@ -56,7 +57,7 @@ http://localhost:9090/crypto/api/date/01-01-2022
 
 XRP
 
-Things to consider with answers:
+# Things to consider with answers:
 
 ● Documentation is our best friend, so it will be good to share one for the endpoints
 
