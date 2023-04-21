@@ -55,3 +55,25 @@ Examples:
 http://localhost:9090/crypto/api/date/01-01-2022
 
 XRP
+
+Things to consider with answers:
+
+● Documentation is our best friend, so it will be good to share one for the endpoints
+
+All Endpoints shared in README.md file.
+
+● Initially the cryptos are only five, but what if we want to include more? Will the
+recommendation service be able to scale?
+
+Yes, as long as we are keeping all the files in the resources/files folder, everything will be picked up and calculated.
+
+● New cryptos pop up every day, so we might need to safeguard recommendations service
+endpoints from not currently supported cryptos
+
+Currently, out of scope of the project.
+
+● For some cryptos it might be safe to invest, by just checking only one month's time
+frame. However, for some of them it might be more accurate to check six months or even
+a year. Will the recommendation service be able to handle this?
+
+Yes, as long as all the files and the data are consistent, the application will be able to handle of six months or even a year.
