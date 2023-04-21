@@ -57,6 +57,13 @@ http://localhost:9090/crypto/api/date/01-01-2022
 
 XRP
 
+
+# Test Coverage
+
+Junit Test Coverage - 92%
+
+
+
 # Things to consider with answers:
 
 ● Documentation is our best friend, so it will be good to share one for the endpoints
