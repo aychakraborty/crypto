@@ -1,4 +1,4 @@
-# crypto recommendation service
+# Crypto Recommendation Service
 
 This is a crypto recommendation service application for XM project
 
