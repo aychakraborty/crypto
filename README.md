@@ -79,7 +79,8 @@ a year. Will the recommendation service be able to handle this?
 
 Yes, as long as all the files and the data are consistent, the application will be able to handle of six months or even a year.
 
-# Out of Scope - Due to lack of time and resources
+# Out of Scope / Future Improvements - Due to lack of time and resources
 
 1. Negetive Scenarios - The application is built considering positive scenarios.
 2. To safeguard recommendation service in terms of security related features.
+3. Exception Handling frameworks can be worked on in depth to handle exception and negetive scenarios.
