@@ -21,7 +21,7 @@ specific day
 4. Store the above result in a map with key as crypto and value as a map with key as MAX, MIN, OLDEST, NEWEST and values as their respective values after calculation.
 5. Calculate Normalised value for each crypto as per business logic. Sort the cryptos on basis of the same in descending order and expose the 1st endpoint.
 6. Take a request crypto name and fetch the details from above map and display the result exposing the 2nd endpoint.
-7. Take a request of a date and create similar list by finding out what are the crypto records that exist for that particular date. Calculate the MAX and MIN and figure out the Normalised value. Use the same to find out the highest normalised crypto for the input date.
+7. Take a request of a date and create similar list by finding out what are the crypto records that exist for that particular date. Calculate the MAX and MIN and figure out the Normalised value. Use the same to find out the highest normalised crypto for the input date. Return the output as part of exposing the 3rd endpoint.
 
 # Endpoints:
 
@@ -78,3 +78,8 @@ frame. However, for some of them it might be more accurate to check six months o
 a year. Will the recommendation service be able to handle this?
 
 Yes, as long as all the files and the data are consistent, the application will be able to handle of six months or even a year.
+
+# Out of Scope - Due to lack of time and resources
+
+1. Negetive Scenarios - The application is built considering positive scenarios.
+2. To safeguard recommendation service in terms of security related features.
